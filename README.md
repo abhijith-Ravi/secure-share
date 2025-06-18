@@ -65,6 +65,7 @@ secureshare-backend
 ## API Endpoints
 
 - **POST /auth/login**: Authenticate user and return JWT.
+- Example usage: $ curl -X POST http://localhost:3000/auth/login   -H "Content-Type: application/json"   -d '{"username":"user1"}'  
 - **GET /account/data**: Protected route to get account information (requires valid JWT).
 - **GET /admin/stats**: Protected route for admin users only.
 
